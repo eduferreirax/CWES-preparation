@@ -28,7 +28,7 @@ During this module, I learned about:
 - The topics that will be covered in each module
 - The mindset required to become a penetration tester
 
-## Key Concept Learned
+## Key Concept learned
 
 ### "Do No Harm"
 
@@ -49,5 +49,3 @@ Today was mostly about preparation and understanding what lies ahead in this lea
 I am very excited to start this process and build a strong foundation in offensive security.
 
 My goal for the next days is to **increase my daily study time and maintain consistency throughout the course.**
-
-PS: I'm using chatgpt to refine and organize these ideas which is more eficient and logic.

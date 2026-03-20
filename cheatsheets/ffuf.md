@@ -139,7 +139,7 @@ This avoids false positives and speeds up enumeration.
 
 ## Key Concepts
 
-### Threads (`-t`)
+### Threads (`-t`))
 
 Controls concurrency (parallel requests), not exact requests per second.
 

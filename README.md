@@ -1,40 +1,68 @@
-# CPTS Preparation
+# 🕸️ CWES Preparation
 
-This repository documents my preparation for the **Certified Penetration Testing Specialist (CPTS)** certification from Hack The Box.
+This repository documents my preparation for the **Certified Web Exploitation Specialist (CWES)** certification from Hack The Box.
 
-The goal is to track my learning progress while studying the **Penetration Tester Job Role Path** on HTB Academy.
-
-## Progress (01/28 modules)
-
-- ✅ Penetration Testing Process
-- ⬜ Information Gathering
-- ⬜ Enumeration
-- ⬜ Web Exploitation
-- ⬜ Privilege Escalation
----
-
-## Study Plan
-
-The CPTS preparation path contains **~340 hours of content** including theory and hands-on labs.
-
-Expected completion time: **3–6 months depending on daily study time**.
-
-My current study routine:
-
-- HTB Academy theory sessions
-- Practical lab machines
-- Daily documentation of progress
-- Building personal pentesting cheatsheets
+The focus of this journey is **web application security, API exploitation, and bug bounty–relevant vulnerabilities**.
 
 ---
 
-## Structure
+## 🎯 Career Focus
 
-- `study-log/` → daily study notes
-- `cheatsheets/` → commands and quick references (growing over time)
+- Application Security (AppSec)
+- Web Security
+- Bug Bounty Hunting
+
+This transition reflects a strategic decision to specialize in **application-layer vulnerabilities** instead of general infrastructure penetration testing.
 
 ---
 
-## Goal
+## 📊 Progress
 
-Pass the **CPTS certification** and build a strong foundation in **offensive security and penetration testing**.
+- ⬜ Web Fundamentals (HTTP, Sessions, Auth)
+- ⬜ Injection Attacks (SQLi, SSTI, Command Injection)
+- ⬜ Authentication & Authorization flaws
+- ⬜ API Security & JWT attacks
+- ⬜ Advanced Web Exploitation (SSRF, Deserialization, Chaining)
+
+---
+
+## 📚 Study Plan
+
+The CWES path includes:
+
+- Hack The Box Academy (Web-focused modules)
+- PortSwigger Web Security Academy
+- Real-world lab environments (HTB / HackingClub)
+
+Estimated completion time:
+**1–2 months (focused study)**
+
+---
+
+## 🛠️ Tools & Skills
+
+- Burp Suite
+- ffuf (fuzzing)
+- HTTP analysis & manual testing
+- Basic backend understanding (Python / Web frameworks)
+
+---
+
+## 🧩 Repository Structure
+
+- `study-log/` → daily study documentation
+- `cheatsheets/` → commands, payloads, and references
+
+---
+
+## 🚀 Goal
+
+- Pass the **CWES certification**
+- Develop strong **web exploitation skills**
+- Transition into **Application Security / Bug Bounty**
+
+---
+
+## 🔄 Note
+
+This repository was initially focused on CPTS preparation but has transitioned to CWES to better align with my long-term goals in web security.

@@ -288,3 +288,40 @@ curl -X POST http://target.com/api/login \
 
 # Ver resposta completa passando por Burp
 curl -v -x http://127.0.0.1:8080 -k https://target.com
+
+# Resumo mental rápido
+
+curl URL            # GET normal
+curl -I URL         # só headers
+curl -i URL         # headers + body
+curl -O URL         # salva com nome original
+curl -o arq URL     # salva com nome escolhido
+curl -L URL         # segue redirect
+curl -X POST URL    # define método
+curl -d "a=1" URL   # envia dados
+curl -H "k:v" URL   # adiciona header
+curl -b cookie.txt  # envia cookies
+curl -c cookie.txt  # salva cookies
+curl -u user:pass   # basic auth
+curl -k URL         # ignora TLS
+curl -v URL         # verbose
+curl -x proxy URL   # usa proxy
+
+# O que decorar primeiro
+
+# Pra uso real, eu decoraria estes:
+
+-I   # só headers
+-i   # headers + body
+-O   # salvar com nome original
+-o   # salvar com nome custom
+-L   # seguir redirect
+-H   # header custom
+-X   # método HTTP
+-d   # enviar dados
+-b   # enviar cookie
+-c   # salvar cookie
+-v   # verbose
+-k   # ignorar certificado
+-s   # silencioso
+-w   # formatar saída (status code etc.)

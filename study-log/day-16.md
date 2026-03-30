@@ -41,6 +41,7 @@ Today's session explored the fundamental differences between relational (SQL) an
 # Tools Used
 - PortSwigger Labs
 - Python
+- VScode
 
 # Challenges Faced
 - Adapting standard SQL injection payloads to match Oracle-specific syntax and database structures.
